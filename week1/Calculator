@@ -8,7 +8,7 @@ public class Calculator{
         a = input.nextFloat();
         System.out.print("Enter the value of b : ");
         b = input.nextFloat();
-        System.out.print("The operations are: \n1.Addition, 2.Subtraction, 3.Multiplication,                       4.Division\n");
+        System.out.print("The operations are: \n1.Addition, 2.Subtraction, 3.Multiplication,4.Division\n");
         System.out.print("Enter your Choice: ");
         choice = input.nextInt();
         if(choice == 1)
@@ -28,7 +28,7 @@ public class Calculator{
              System.out.print("The Division of "+ a +" and "+ b +" is "+(a/b));
         }
         else
-       {
+        {
               System.out.print(“Invalid Choice\n”);
         }    
     }
