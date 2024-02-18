@@ -24,12 +24,12 @@ class student{
         void printstudentdetails()
         {
             cout << "The student details are as follows : " << endl;
-            cout << "Name of the student : " << fullname << endl
-            cout << "Rollno : " << rollnum << endl
-            cout << "College : " << collegename << endl
-            cout << "College Code : " << collegecode << endl
+            cout << "Name of the student : " << fullname << endl;
+            cout << "Rollno : " << rollnum << endl;
+            cout << "College : " << collegename << endl;
+            cout << "College Code : " << collegecode << endl;
             cout << "Sem Percentage : " << sempercentage  << endl;
-        }     
+        }    
 };
 
 int main()
@@ -40,7 +40,7 @@ int main()
     string collegename;
     int collegecode;
     cout << "Enter your Name : " ;
-    cin >> name;
+    getline(cin,name);
     cout << "Enter your Roll no : " ;
     cin >> roll;
     cout << "Enter your College name : " <<ends;
