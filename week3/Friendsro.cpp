@@ -48,5 +48,5 @@ int main()
     Box d(length,width,height);
     displayBoxDimensions(d);
     d.boxArea(d.length,d.width,d.height);
-    d.boxvolume(l,b,h); 
+    d.boxvolume(length,width,height); 
 }
