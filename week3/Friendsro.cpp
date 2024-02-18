@@ -33,7 +33,7 @@ void displayBoxDimensions(Box b)
 }
 void Box:: boxvolume(float length,float width,float height)
 {
-    float vol = length*width*height;
+    float volume = length*width*height;
     cout << "The Volume of the box is " << vol << endl;
 }
 int main()
