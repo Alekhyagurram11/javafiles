@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
-inline void displayWelcomeMessage() 
+inline void displayWelcomeMessage()
 {
-  cout << "This is welcome message!" << endl ;
+  cout << "This is a welcome message!" << endl ;
 }
 class Box{
     public:
@@ -10,14 +10,13 @@ class Box{
         Box(){
             length = width = height = 1;
         }
+       
         Box(float l, float b,float h)
         {
             length = l ;
             width = b ;
             height = h ;
-            cout << "I'm created!!" << endl;
         }
-        ~Box(){}
         void boxArea(float length,float width,float height)
         {
             float area = 2*(length*width + width*height + height*length);
@@ -28,9 +27,9 @@ class Box{
 };
 void displayBoxDimensions(Box b)
 {
-    cout << "length : " << b.length << endl;
-    cout << "width : " << b.width << endl;
-    cout << "height : " << b.height << endl;
+    cout << "Length : " << b.length << endl;
+    cout << "Width : " << b.width << endl;
+    cout << "Height : " << b.height << endl;
 }
 void Box:: boxvolume(float length,float width,float height)
 {
@@ -48,5 +47,5 @@ int main()
     Box d(length,width,height);
     displayBoxDimensions(d);
     d.boxArea(d.length,d.width,d.height);
-    d.boxvolume(length,width,height); 
+    d.boxvolume(length,width,height);
 }
