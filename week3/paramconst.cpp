@@ -20,7 +20,10 @@ class student{
             fullname = name;
             sempercentage = percentage;
         }
-        ~student(){}
+        ~student()
+        {
+          cout << "I'm dead!!" <<endl;
+        }
         void getstudentdetails()
         {
             cout << "The student details are as follows : " << endl;
