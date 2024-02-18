@@ -38,7 +38,7 @@ class student{
 
 int main()
 {
-    student s;
+    student a;
     string name;
     double sempercent;
     int rollno;
@@ -48,7 +48,7 @@ int main()
     cin >> rollno;
     cout << "Enter your percentage : ";
     cin >> sempercent;
-    a = {name,sem};
-    a.setstudentrollno(roll);
+    a = {name,sempercent};
+    a.studentrollno(rollno);
     a.getstudentdetails();                  
 }
