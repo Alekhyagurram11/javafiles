@@ -4,7 +4,7 @@
 
 int main()
 {
-   int length, width, height;
+   float length, width, height;
    cout<<"Enter the length, width and height of the box : "<<endl;
    cin>>length;
    cin>>width;
