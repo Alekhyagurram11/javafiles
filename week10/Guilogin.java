@@ -37,7 +37,7 @@ public class AWT extends Frame implements ActionListener {
         String username = usernameField.getText();
         String password = passwordField.getText();
 
-        if (username.equals("admin") && password.equals("1234")) {
+        if (username.equals("admin") && password.equals("0111")) {
             JOptionPane.showMessageDialog(null, "YOU have entered correct credentials");
         } else {
             JOptionPane.showMessageDialog(null, "YOU have entered incorrect credentials");
